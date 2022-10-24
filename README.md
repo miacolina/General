@@ -1,2 +1,1 @@
 # PrimerParcial
-double linked list 
