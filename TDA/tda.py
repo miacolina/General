@@ -18,6 +18,12 @@ from .tda_lista import(
     eliminar, 
     barrido,
 )
+from .tda_lista_lista import (
+    Listadelistas,
+    insertar,
+    buscar,
+    barrido
+)
 def pila():
     pdatos = Pila()
     ppar = Pila()
@@ -68,4 +74,8 @@ def listas():
     else:
         print('No se encontro el elemento a eliminar')
     barrido(lista)
+
+def listadelistas():
+    estaciones =Lista()
+    dato = input('Ingrese nombre de la estación:')
     

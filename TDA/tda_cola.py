@@ -10,7 +10,7 @@ class Cola(object):
         self.frente, self.final = None, None
         self.tam = 0
         
-    def arriba(cola, dato):
+    def arribo(cola, dato):
         nodo = nodoCola
         nodo.info =dato
         if cola.frente is None:
@@ -39,7 +39,7 @@ class Cola(object):
     
     def mover_al_final(cola):
         dato = atencion(cola)
-        arriba(cola, dato)
+        arribo(cola, dato)
         return dato
     
     def barrido(cola):
